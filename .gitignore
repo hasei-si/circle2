@@ -1,0 +1,62 @@
+# Unityが生成する一時ファイルやキャッシュ
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.log
+# Blenderの一時ファイル
+*.blend1
+*.blend1.meta
+# メモリキャプチャや録画データ（サイズが大きくなる可能性あり）
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+# JetBrains Rider関連の自動生成ファイル
+/[Aa]ssets/Plugins/Editor/JetBrains*
+*.DotSettings.user
+# Visual StudioやMonoDevelop関連のキャッシュやプロジェクトファイル
+vs/
+/.gradle/
+ExportedObj/
+consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+# Unityが生成するメタファイルやクラッシュレポート
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+mono_crash.*
+# ビルド成果物
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+# Addressables関連の一時ファイル
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+# Visual Scriptingの自動生成ファイル
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+# テスト用に自動生成されるシーン
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
