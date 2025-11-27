@@ -60,3 +60,4 @@ mono_crash.*
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
 # テスト用に自動生成されるシーン
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/.vs
