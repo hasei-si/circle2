@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\magun\\GitHub\\circle2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|c:\\users\\magun\\github\\circle2\\assets\\script\\gameovermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gameovermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|c:\\users\\magun\\github\\circle2\\assets\\script\\newmonobehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\newmonobehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|c:\\users\\magun\\github\\circle2\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|C:\\Users\\magun\\GitHub\\circle2\\assets\\script\\gameovermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gameovermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|C:\\Users\\magun\\GitHub\\circle2\\assets\\script\\playerorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,15 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NewMonoBehaviourScript.cs",
+              "DocumentMoniker": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\NewMonoBehaviourScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\NewMonoBehaviourScript.cs",
+              "ToolTip": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\NewMonoBehaviourScript.cs",
+              "RelativeToolTip": "Assets\\Script\\NewMonoBehaviourScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T10:52:02.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GameOverManagement.cs",
               "DocumentMoniker": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\GameOverManagement.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameOverManagement.cs",
               "ToolTip": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\GameOverManagement.cs",
               "RelativeToolTip": "Assets\\Script\\GameOverManagement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T10:46:34.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T10:46:34.344Z"
             },
             {
               "$type": "Document",
@@ -45,14 +61,14 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
               "ToolTip": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\Player.cs",
               "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAIwDIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwDIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T10:43:16.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerOrbit.cs",
               "DocumentMoniker": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\PlayerOrbit.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerOrbit.cs",
