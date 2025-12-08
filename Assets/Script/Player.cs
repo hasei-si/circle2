@@ -42,11 +42,5 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log("Player is Dead!");
         // アニメーション再生、ゲームオーバー画面表示などここに書く
         // Destroy(gameObject); なども可能
-        // GameOverManager を探して呼び出す
-        GameOverManager gm = FindObjectOfType<GameOverManager>();
-        gm.ShowGameOver();
-
-        // 必要ならプレイヤーの操作停止など行う
-        Destroy(gameObject);
     }
 }
