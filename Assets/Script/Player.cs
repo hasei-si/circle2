@@ -2,30 +2,30 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxHP = 100;   // Å‘åHP
-    public int currentHP;     // Œ»İ‚ÌHP
+    public int maxHP = 100;   // ï¿½Å‘ï¿½HP
+    public int currentHP;     // ï¿½ï¿½ï¿½İ‚ï¿½HP
     HPBar hpBar;
 
     void Start()
     {
-        // ƒQ[ƒ€ŠJnAŒ»İHP‚ğÅ‘å‚É‚·‚é
+        // ï¿½Qï¿½[ï¿½ï¿½ï¿½Jï¿½nï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½HPï¿½ï¿½ï¿½Å‘ï¿½É‚ï¿½ï¿½ï¿½
         currentHP = maxHP;
-        // HPƒo[‚ğƒV[ƒ“‚©‚ç’T‚·
-        hpBar = FindObjectOfType<HPBar>();
-        hpBar.SetHP(1f); // –ƒ^ƒ“‚Å‰Šú‰»
+        // HPï¿½oï¿½[ï¿½ï¿½ï¿½Vï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½
+        hpBar = FindFirstObjectByType<HPBar>();
+        hpBar.SetHP(1f); // ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½
     }
 
-    // ƒ_ƒ[ƒW‚ğó‚¯‚éŠÖ”iŠO‚©‚çŒÄ‚Ôj
+    // ï¿½_ï¿½ï¿½ï¿½[ï¿½Wï¿½ï¿½ï¿½ó‚¯‚ï¿½Öï¿½ï¿½iï¿½Oï¿½ï¿½ï¿½ï¿½Ä‚Ôj
     public void TakeDamage(int damage)
     {
         currentHP -= damage;
         currentHP = Mathf.Clamp(currentHP, 0, maxHP);
 
-        // HPƒo[XVI
+        // HPï¿½oï¿½[ï¿½Xï¿½Vï¿½I
         float ratio = (float)currentHP / maxHP;
         hpBar.SetHP(ratio);
 
-        // HP‚ª0ˆÈ‰º‚É‚È‚Á‚½‚ç€‚Ê
+        // HPï¿½ï¿½0ï¿½È‰ï¿½ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½ç€ï¿½ï¿½
         if (currentHP <= 0)
         {
             currentHP = 0;
@@ -33,29 +33,29 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    // ‰ñ•œ‚·‚éŠÖ”i•K—v‚È‚çg‚¤j
+    // ï¿½ñ•œ‚ï¿½ï¿½ï¿½Öï¿½ï¿½iï¿½Kï¿½vï¿½È‚ï¿½gï¿½ï¿½ï¿½j
     public void Heal(int amount)
     {
         currentHP += amount;
 
-        // Å‘åHPˆÈã‚É‚È‚ç‚È‚¢‚æ‚¤‚É‚·‚é
+        // ï¿½Å‘ï¿½HPï¿½Èï¿½É‚È‚ï¿½È‚ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½ï¿½
         if (currentHP > maxHP)
         {
             currentHP = maxHP;
         }
     }
 
-    // €–S‚Ìˆ—
+    // ï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½
     void Die()
     {
         Debug.Log("Player is Dead!");
-        // ƒAƒjƒ[ƒVƒ‡ƒ“Ä¶AƒQ[ƒ€ƒI[ƒo[‰æ–Ê•\¦‚È‚Ç‚±‚±‚É‘‚­
-        // Destroy(gameObject); ‚È‚Ç‚à‰Â”\
-        // GameOverManager ‚ğ’T‚µ‚ÄŒÄ‚Ño‚·
-        GameOverManager gm = FindObjectOfType<GameOverManager>();
+        // ï¿½Aï¿½jï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Äï¿½ï¿½Aï¿½Qï¿½[ï¿½ï¿½ï¿½Iï¿½[ï¿½oï¿½[ï¿½ï¿½Ê•\ï¿½ï¿½ï¿½È‚Ç‚ï¿½ï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½
+        // Destroy(gameObject); ï¿½È‚Ç‚ï¿½ï¿½Â”\
+        // GameOverManager ï¿½ï¿½Tï¿½ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½
+        GameOverManager gm = FindFirstObjectByType<GameOverManager>();
         gm.ShowGameOver();
 
-        // •K—v‚È‚çƒvƒŒƒCƒ„[‚Ì‘€ì’â~‚È‚Çs‚¤
+        // ï¿½Kï¿½vï¿½È‚ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½~ï¿½È‚Çsï¿½ï¿½
         Destroy(gameObject);
     }
 }
