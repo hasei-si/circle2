@@ -1,13 +1,16 @@
 using UnityEngine;
-using TMPro; // TextMeshProを使うため必須
+using UnityEngine.UI; // ★重要: 標準の Text コンポーネントを使うため追加
 
 public class WaveManager : MonoBehaviour
 {
     // === Inspectorで割り当てる変数 ===
-    // Wave数表示用テキスト（例: WAVE 1/8）
-    [SerializeField] private TextMeshProUGUI waveCountText;
-    // タイマー表示用テキスト（例: 30s）
-    [SerializeField] private TextMeshProUGUI waveTimerText; 
+    // Wave数表示用テキスト
+    // [SerializeField] private TextMeshProUGUI waveCountText; // TMP版を削除
+    [SerializeField] private Text waveCountText;           // ★Text (Legacy) に変更
+
+    // タイマー表示用テキスト
+    // [SerializeField] private TextMeshProUGUI waveTimerText; // TMP版を削除
+    [SerializeField] private Text waveTimerText;           // ★Text (Legacy) に変更
 
     // === Inspectorで設定するゲームデータ ===
     [Tooltip("各ウェーブの持続時間（秒）")]
@@ -60,6 +63,7 @@ public class WaveManager : MonoBehaviour
     private void UpdateWaveUI()
     {
         // 1. WAVE数表示 (例: "WAVE 1/8")
+        // Text.text に文字列を代入
         waveCountText.text = "WAVE " + currentWave.ToString() + "/" + totalWaves.ToString(); 
 
         // 2. タイマー表示 (例: "30s")
@@ -68,7 +72,6 @@ public class WaveManager : MonoBehaviour
         waveTimerText.text = seconds.ToString() + "s";
     }
 
-    // ★敵の配置を制御する関数（デバッグ用）
     private void StartWave(int waveNumber)
     {
         Debug.Log("--- WAVE " + waveNumber + " START! 敵配置を開始します ---");
