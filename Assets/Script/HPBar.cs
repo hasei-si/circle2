@@ -3,11 +3,22 @@ using UnityEngine.UI;
 
 public class HPBar : MonoBehaviour
 {
-    public Image fillImage; // HPバーの中身（Image）
+    public RectTransform hpFillRect; // ImageじゃなくRectTransform
+    private int maxHP;
 
-    public void SetHP(float ratio)
+    // 最大HPを設定
+    public void SetMaxHP(int maxHP)
     {
-        // ratio は 0〜1 で渡す（0 = 空 / 1 = 満タン）
-        fillImage.fillAmount = ratio;
+        this.maxHP = maxHP;
+        SetHP(maxHP);
+    }
+
+    // HPを更新
+    public void SetHP(int currentHP)
+    {
+        float ratio = (float)currentHP / maxHP;
+        ratio = Mathf.Clamp01(ratio);
+
+        hpFillRect.localScale = new Vector3(ratio, 1f, 1f);
     }
 }

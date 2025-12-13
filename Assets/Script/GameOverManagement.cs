@@ -4,6 +4,7 @@ public class GameOverManager : MonoBehaviour
 {
     // ゲームオーバー画面（Panel）を指定
     public GameObject gameOverPanel;
+    public GameObject gameOverText;
 
     void Start()
     {
@@ -20,6 +21,7 @@ public class GameOverManager : MonoBehaviour
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(true);
+            gameOverText.SetActive(true);
 
             // 時間止めたい場合はこれ追加
             // Time.timeScale = 0f;

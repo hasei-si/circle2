@@ -5,8 +5,15 @@ public class Bullet : MonoBehaviour
     // === Inspectorから設定する変数 ===
     public float speed = 10f; // ★PlayerShooter側で上書きされるため、使わなくてOK
     public float lifeTime = 2f; // 自動で消えるまでの時間
-
+    public int damage = 1;
     private Rigidbody2D rb;
+
+    private Vector2 direction;
+
+    public void SetDirection(Vector2 dir)
+    {
+        direction = dir.normalized;
+    }
 
     void Start()
     {
@@ -24,5 +31,10 @@ public class Bullet : MonoBehaviour
 
         // lifeTime秒後にこのゲームオブジェクトを削除
         Destroy(gameObject, lifeTime);
+    }
+
+    void Update()
+    {
+        transform.Translate(direction * speed * Time.deltaTime);
     }
 }
