@@ -19,7 +19,7 @@ public class WaveManager : MonoBehaviour
     public float timePerWave = 30f; 
 
     [Tooltip("最終Waveの数")]
-    public int maxWaveCount = 8;
+    public int maxWaveCount = 9;
     
     // === プライベート変数 (現在の状態を保持) ===
 
@@ -32,6 +32,13 @@ public class WaveManager : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("WaveManager Start!");
+
+        if (waveCountText != null)
+        {
+            waveCountText.text = "TEST WAVE";
+        }
+
         // 初期タイマー設定
         waveTimer = timePerWave; 
 
@@ -122,13 +129,13 @@ public class WaveManager : MonoBehaviour
                 {
                     // 位置を初期位置に戻す
                     objectsToReset[i].transform.position = initialPositions[i];
-                    
+
                     // Rigidbodyがあれば速度もリセットする（必要に応じて）
-                    Rigidbody rb = objectsToReset[i].GetComponent<Rigidbody>();
+                    Rigidbody2D rb = objectsToReset[i].GetComponent<Rigidbody2D>();
                     if (rb != null)
                     {
-                        rb.linearVelocity = Vector3.zero;
-                        rb.angularVelocity = Vector3.zero;
+                        rb.linearVelocity = Vector2.zero;
+                        rb.angularVelocity = 0f;
                     }
                 }
             }
