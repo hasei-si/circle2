@@ -154,7 +154,7 @@ public class WaveManager : MonoBehaviour
         if (waveTimerText != null)
         {
             // 残り時間を "秒.コンマ以下" の形式で表示
-            waveTimerText.text = string.Format("残り時間: {0:00.0}", waveTimer);
+            waveTimerText.text = string.Format(" {0:00.0}", waveTimer);
         }
     }
 }
