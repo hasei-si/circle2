@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 71783935187309221}
   - component: {fileID: 286682784843685044}
   - component: {fileID: 2984987473049636792}
-  - component: {fileID: 6473706515799971265}
+  - component: {fileID: 1803559633034577777}
   m_Layer: 0
   m_Name: BulletShiho
   m_TagString: EnemyBullet
@@ -170,7 +170,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &6473706515799971265
+--- !u!114 &1803559633034577777
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -184,3 +184,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyBullet
   speed: 10
   lifeTime: 3
+  damage: 1

@@ -61,3 +61,5 @@ mono_crash.*
 # テスト用に自動生成されるシーン
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 /.vs
+/.vs
+/.vs
