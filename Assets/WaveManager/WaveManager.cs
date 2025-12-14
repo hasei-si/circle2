@@ -142,7 +142,7 @@ public class WaveManager : MonoBehaviour
     {
         if (waveCountText != null)
         {
-            waveCountText.text = "Wave " + waveCount.ToString() + " / " + maxWaveCount.ToString();
+            waveCountText.text = "Wave " + waveCount.ToString() + "/" + maxWaveCount.ToString();
         }
     }
 
