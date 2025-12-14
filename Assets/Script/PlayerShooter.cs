@@ -10,7 +10,13 @@ public class PlayerShooter : MonoBehaviour
     
     // 💡 インスペクターから設定: PlayerOrbitスクリプトで使っている「中心」のTransform
     public Transform center;
+    public PlayerSE playerSE;
 
+    private void Start()
+    {
+        playerSE = GetComponent<PlayerSE>();
+
+    }
     void Update()
     {
         // スペースキーが押された瞬間に発射
@@ -27,6 +33,8 @@ public class PlayerShooter : MonoBehaviour
 
         // 2. 弾のRigidbody2Dを取得
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        playerSE.PlayShoot();
+
 
         if (rb != null)
         {

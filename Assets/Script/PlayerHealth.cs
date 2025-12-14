@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
     private int currentHP;
     public HPBar hpBar;
     public GameOverManager gameOverManager;
+    public PlayerSE playerSE;
 
 
     private SpriteRenderer sr;
@@ -16,6 +17,8 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHP = maxHP;
         sr = GetComponent<SpriteRenderer>();
+        playerSE = GetComponent<PlayerSE>();
+
 
         if (hpBar != null)
         {
@@ -23,11 +26,18 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int damage)
+
+public void TakeDamage(int damage)
     {
         if (isDamaging) return;
 
         currentHP -= damage;
+        if (playerSE != null)
+        {
+            playerSE.PlayDamage();
+        }
+
+
 
         Debug.Log("Player HP: " + currentHP);
         currentHP = Mathf.Max(currentHP, 0);
@@ -78,6 +88,12 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("Player Dead");
         gameObject.SetActive(false);
+        if (playerSE != null)
+        {
+            playerSE.PlayDeath();
+        }
+
+
         if (gameOverManager != null)
         {
             gameOverManager.ShowGameOver();
