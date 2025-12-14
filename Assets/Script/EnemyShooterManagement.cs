@@ -45,17 +45,18 @@ public class EnemyShooterManagement : MonoBehaviour
     }
 
     // ▼ プレイヤーの弾との接触判定（IsTrigger 必須）
-    private void OnTriggerEnter2D(Collider2D collision)
+
+private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PlayerBullet"))
         {
-            EnemyBullet bullet = collision.GetComponent<Bullet>();
+            Bullet bullet = collision.GetComponent<Bullet>();
             if (bullet != null)
             {
                 TakeDamage(bullet.damage);
             }
 
-            Destroy(collision.gameObject); // 弾を消す
+            Destroy(collision.gameObject);
         }
     }
 }
