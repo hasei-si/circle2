@@ -1445,7 +1445,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.7
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1593,6 +1593,53 @@ MonoBehaviour:
   bgmWave1to3: {fileID: 8300000, guid: a2f0c7b38f81abf41a1c3153c7c1a663, type: 3}
   bgmWave4to6: {fileID: 8300000, guid: 0af6ff81a6523de42af4fed75ac2d45b, type: 3}
   bgmWave7to9: {fileID: 8300000, guid: 6bbb67fdc87e97e42acf219f6cc0bb58, type: 3}
+--- !u!1 &1849909121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1849909123}
+  - component: {fileID: 1849909122}
+  m_Layer: 0
+  m_Name: EnemyTurretSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1849909122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849909121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5c77902c3e8c14a8aea43b35f67964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyTurretSpawner
+  enemyPrefab: {fileID: 306919080425299576, guid: a466bb2ff4722a749930c272617dd5be, type: 3}
+  spawnInterval: 6
+  margin: 0.5
+--- !u!4 &1849909123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849909121}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.40148, y: -1.20106, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2067083345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1910,3 +1957,4 @@ SceneRoots:
   - {fileID: 993150953}
   - {fileID: 2067083348}
   - {fileID: 1485519049}
+  - {fileID: 1849909123}
