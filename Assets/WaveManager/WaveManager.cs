@@ -12,6 +12,9 @@ public class WaveManager : MonoBehaviour
     // Wave切り替え時に初期位置に戻したいオブジェクトの配列
     public GameObject[] objectsToReset;
 
+    public PlayerHealth playerHealth;
+    public BGMManager bgmManager;
+
     // === 設定可能なパラメータ ===
 
     [Header("Wave Settings")]
@@ -79,24 +82,32 @@ public class WaveManager : MonoBehaviour
     {
         if (waveCount < maxWaveCount)
         {
-            // 次のWaveへ
             waveCount++;
             UpdateWaveCountUI();
-            
-            // タイマーをリセット
-            waveTimer = timePerWave; 
-            
-            // オブジェクトをリセット
+
+            // ★ WaveごとにBGM更新
+            if (bgmManager != null)
+            {
+                bgmManager.PlayBGMForWave(waveCount);
+            }
+
+            // HP全回復（前に作ったやつ）
+            if (playerHealth != null)
+            {
+                playerHealth.HealToFull();
+            }
+
+            waveTimer = timePerWave;
             ResetObjectsToInitialPositions();
         }
         else
         {
-            // 最大Waveに達したらゲームオーバー処理 (今後実装)
-            Debug.Log("ゲームクリア！最大Waveに到達しました。");
+            Debug.Log("ゲームクリア！");
             isGameOver = true;
-            // TODO: ゲームオーバー画面や勝利処理を呼び出す
         }
     }
+
+
 
     /// <summary>
     /// リセット対象オブジェクトの初期位置を配列に保存します。
@@ -165,5 +176,10 @@ public class WaveManager : MonoBehaviour
           // 秒の部分を1桁（0埋めなし）で、小数点以下1桁で表示
            waveTimerText.text = string.Format("{0:0.0}", waveTimer); 
      }
-    }   
+    }
+
+    public void StopWave()
+    {
+        isGameOver = true;
+    }
 }
