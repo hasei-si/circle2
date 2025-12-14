@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - PlayerBullet
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
@@ -41,17 +43,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 983795643
+  - name: hutidori
+    uniqueID: 4228824625
+    locked: 0
+  - name: back ground
+    uniqueID: 2379134677
     locked: 0
   - name: Enemy
-    uniqueID: 2864715167
+    uniqueID: 2405287431
     locked: 0
-  - name: Player
-    uniqueID: 3149936721
+  - name: palyer
+    uniqueID: 2629237697
     locked: 0
-  - name: UI
-    uniqueID: 353075499
+  - name: bullet
+    uniqueID: 2362975905
     locked: 0
   m_RenderingLayers:
   - Default
