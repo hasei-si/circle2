@@ -149,12 +149,14 @@ public class WaveManager : MonoBehaviour
     /// <summary>
     /// タイマー表示UIを更新します。
     /// </summary>
+    // WaveManager.cs の UpdateWaveTimerUI() メソッド内
     void UpdateWaveTimerUI()
     {
         if (waveTimerText != null)
         {
-            // 残り時間を "秒.コンマ以下" の形式で表示
-            waveTimerText.text = string.Format(" {0:00.0}", waveTimer);
-        }
-    }
+           // 修正後のフォーマット: {0:0.0} 
+          // 秒の部分を1桁（0埋めなし）で、小数点以下1桁で表示
+           waveTimerText.text = string.Format("残り時間: {0:0.0}", waveTimer); 
+     }
+    }   
 }
