@@ -156,7 +156,7 @@ public class WaveManager : MonoBehaviour
         {
            // 修正後のフォーマット: {0:0.0} 
           // 秒の部分を1桁（0埋めなし）で、小数点以下1桁で表示
-           waveTimerText.text = string.Format("残り時間: {0:0.0}", waveTimer); 
+           waveTimerText.text = string.Format("{0:0.0}", waveTimer); 
      }
     }   
 }
