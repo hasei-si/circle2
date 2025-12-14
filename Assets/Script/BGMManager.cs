@@ -2,53 +2,41 @@ using UnityEngine;
 
 public class BGMManager : MonoBehaviour
 {
-    public static BGMManager Instance;
+    public AudioSource audioSource;
 
-    public AudioSource bgmSource;
-
-    [Header("Wave BGM")]
+    [Header("BGM Clips (3 Waves per clip)")]
     public AudioClip bgmWave1to3;
     public AudioClip bgmWave4to6;
     public AudioClip bgmWave7to9;
 
     private AudioClip currentClip;
 
-    private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
-
     void Start()
     {
-        PlayBGMByWave(1); // 仮スタート
+        PlayBGMForWave(1);
     }
 
-    public void PlayBGMByWave(int wave)
+    public void PlayBGMForWave(int wave)
     {
-        AudioClip nextClip = null;
+        AudioClip nextClip = GetClipByWave(wave);
 
-        if (wave >= 1 && wave <= 3)
-            nextClip = bgmWave1to3;
-        else if (wave >= 4 && wave <= 6)
-            nextClip = bgmWave4to6;
-        else if (wave >= 7 && wave <= 9)
-            nextClip = bgmWave7to9;
-
-        // 同じBGMなら何もしない
-        if (nextClip == null || nextClip == currentClip)
+        // 同じBGMなら切り替えない
+        if (currentClip == nextClip || nextClip == null)
             return;
 
         currentClip = nextClip;
-        bgmSource.clip = nextClip;
-        bgmSource.loop = true;
-        bgmSource.Play();
+        audioSource.clip = currentClip;
+        audioSource.loop = true;
+        audioSource.Play();
+    }
+
+    AudioClip GetClipByWave(int wave)
+    {
+        if (wave <= 3)
+            return bgmWave1to3;
+        else if (wave <= 6)
+            return bgmWave4to6;
+        else
+            return bgmWave7to9;
     }
 }
