@@ -232,8 +232,10 @@ RectTransform:
   - {fileID: 759295945}
   - {fileID: 774017663}
   - {fileID: 727471118}
+
   - {fileID: 126102760}
   - {fileID: 970643347}
+
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -529,7 +531,9 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
+
   m_ApplyToSortingLayers: 0000000031be0efcc1fbb69cd5b6ce8da126d88c07c65d8f
+
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -821,7 +825,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
+
   m_SortingLayerID: -66142671
+
   m_SortingLayer: 1
   m_SortingOrder: -1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
@@ -1300,7 +1306,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+
   m_Father: {fileID: 774017663}
+
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -1437,7 +1445,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
+
   m_SortingLayerID: -1915832619
+
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
@@ -1770,6 +1780,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+
 --- !u!1 &2085281483
 GameObject:
   m_ObjectHideFlags: 0
@@ -1852,8 +1863,10 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
+
   m_SortingLayerID: -1665729599
   m_SortingLayer: 4
+
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -1897,6 +1910,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 7093413588199614082, guid: c15e515b445a76f448ed6df03757e0ce, type: 3}
   bulletSpeed: 15
   center: {fileID: 999215159}
+
   playerSE: {fileID: 0}
 --- !u!114 &2085281488
 MonoBehaviour:
@@ -1994,6 +2008,7 @@ MonoBehaviour:
   shootSE: {fileID: 8300000, guid: 3de2a1489bf54534f94302a3bf996527, type: 3}
   damageSE: {fileID: 8300000, guid: 3a06198ee9def8444aa1e575d895d727, type: 3}
   deathSE: {fileID: 8300000, guid: 27020a5da8f3b0b4aaaec827878a3dd6, type: 3}
+
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
