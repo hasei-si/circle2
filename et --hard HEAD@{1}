@@ -1,0 +1,27 @@
+[33m5004f88[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mshiho-work[m[33m, [m[1;31morigin/shiho-work[m[33m)[m HEAD@{0}: commit (merge): 送り忘れてたやつ
+[33m06d8655[m HEAD@{1}: commit: 送り忘れてた？やつ
+[33m7dd26a8[m HEAD@{2}: commit: WAVE終わるとHP全回復、3WAVEごとにBGM切り替わり
+[33m0d4af94[m HEAD@{3}: commit: WAVEとタイマーの位置調整
+[33mf89fc2a[m HEAD@{4}: checkout: moving from feature/bullet-enhancement to shiho-work
+[33mcb0030a[m HEAD@{5}: checkout: moving from shiho-work to feature/bullet-enhancement
+[33mf89fc2a[m HEAD@{6}: merge main: Merge made by the 'ort' strategy.
+[33mfd26059[m HEAD@{7}: checkout: moving from main to shiho-work
+[33m3136aab[m[33m ([m[1;31morigin/UI[m[33m)[m HEAD@{8}: checkout: moving from shiho-work to main
+[33mfd26059[m HEAD@{9}: checkout: moving from main to shiho-work
+[33m3136aab[m[33m ([m[1;31morigin/UI[m[33m)[m HEAD@{10}: checkout: moving from shiho-work to main
+[33mfd26059[m HEAD@{11}: commit: 固定砲台な敵作った
+[33m82b6778[m HEAD@{12}: commit: 背景作り、BGMとSEを入れました
+[33m45127c5[m HEAD@{13}: commit: なんかエラー出たので修正
+[33m3862e84[m HEAD@{14}: commit (merge): Merge branch 'main' into shiho-work
+[33mcccc8c5[m HEAD@{15}: checkout: moving from shiho-work to shiho-work
+[33mcccc8c5[m HEAD@{16}: reset: moving to cccc8c55f00818c809d637646668036de57aa85e
+[33mcccc8c5[m HEAD@{17}: checkout: moving from main to shiho-work
+[33md45ea8a[m HEAD@{18}: checkout: moving from shiho-work to main
+[33mcccc8c5[m HEAD@{19}: checkout: moving from main to shiho-work
+[33md45ea8a[m HEAD@{20}: checkout: moving from shiho-work to main
+[33mcccc8c5[m HEAD@{21}: checkout: moving from main to shiho-work
+[33md45ea8a[m HEAD@{22}: checkout: moving from shiho-work to main
+[33mcccc8c5[m HEAD@{23}: checkout: moving from revert-4-shiho-work to shiho-work
+[33m223e221[m[33m ([m[1;31morigin/revert-4-shiho-work[m[33m, [m[1;32mrevert-4-shiho-work[m[33m)[m HEAD@{24}: checkout: moving from main to revert-4-shiho-work
+[33md45ea8a[m HEAD@{25}: commit: 弾を撃つ敵を作ったり、HPゲージ作ったり、ゲームオーバー画面作ったりしました
+[33m9de88b1[m HEAD@{26}: clone: from https://github.com/hasei-si/circle2.git
