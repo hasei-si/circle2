@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 559368641365025516}
   - component: {fileID: 7624763710856410135}
   - component: {fileID: 2056622470817763074}
+  - component: {fileID: -7992537795654837656}
   m_Layer: 0
   m_Name: EnemyTurret
   m_TagString: Untagged
@@ -189,3 +190,19 @@ MonoBehaviour:
   shootInterval: 4
   bulletSpeed: 3
   maxHP: 4
+--- !u!114 &-7992537795654837656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306919080425299576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c53e80531d79ee479ecc4546abb6856, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyShooter2D
+  bulletPrefab: {fileID: 4663042842578638818, guid: 1841353b9b455384290ce2e93798486a, type: 3}
+  firePoint: {fileID: 0}
+  player: {fileID: 0}
+  shootInterval: 1.5

@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\magun\\GitHub\\circle2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|c:\\users\\magun\\github\\circle2\\assets\\script\\newmonobehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\newmonobehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|c:\\users\\magun\\github\\circle2\\assets\\script\\enemyshootershiho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyshootershiho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|c:\\users\\magun\\github\\circle2\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|C:\\Users\\magun\\GitHub\\circle2\\assets\\script\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|c:\\users\\magun\\github\\circle2\\assets\\script\\enemyshootermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyshootermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|C:\\Users\\magun\\GitHub\\circle2\\assets\\script\\enemyturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|C:\\Users\\magun\\GitHub\\circle2\\assets\\script\\enemyshootershiho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyshootershiho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\NewMonoBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\NewMonoBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|C:\\Users\\magun\\GitHub\\circle2\\assets\\script\\bulletshiho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bulletshiho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|C:\\Users\\magun\\GitHub\\circle2\\assets\\script\\enemyshootermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyshootermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|C:\\Users\\magun\\GitHub\\circle2\\assets\\script\\hpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\hpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:2:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|C:\\Users\\magun\\GitHub\\circle2\\assets\\script\\enemyshootermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyshootermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|C:\\Users\\magun\\GitHub\\circle2\\assets\\script\\gameovermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gameovermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|C:\\Users\\magun\\GitHub\\circle2\\assets\\script\\playerorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:2:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|C:\\Users\\magun\\GitHub\\circle2\\assets\\script\\enemyshootershiho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{2A1576FF-0AFF-85CB-13C9-5749F6A154BD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyshootershiho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,24 +42,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "EnemyBullet.cs",
+              "DocumentMoniker": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\EnemyBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EnemyBullet.cs",
+              "ToolTip": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\EnemyBullet.cs",
+              "RelativeToolTip": "Assets\\Script\\EnemyBullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T04:03:10.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyTurret.cs",
+              "DocumentMoniker": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\EnemyTurret.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EnemyTurret.cs",
+              "ToolTip": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\EnemyTurret.cs",
+              "RelativeToolTip": "Assets\\Script\\EnemyTurret.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T04:02:31.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "NewMonoBehaviourScript.cs",
               "DocumentMoniker": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\NewMonoBehaviourScript.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\NewMonoBehaviourScript.cs",
               "ToolTip": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\NewMonoBehaviourScript.cs",
               "RelativeToolTip": "Assets\\Script\\NewMonoBehaviourScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T10:52:02.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T10:52:02.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GameOverManagement.cs",
               "DocumentMoniker": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\GameOverManagement.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameOverManagement.cs",
@@ -67,25 +89,24 @@
               "RelativeToolTip": "Assets\\Script\\GameOverManagement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T16:52:54.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-13T16:52:54.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HPBar.cs",
-              "DocumentMoniker": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\HPBar.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\HPBar.cs",
-              "ToolTip": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\HPBar.cs",
-              "RelativeToolTip": "Assets\\Script\\HPBar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAABFwBgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EnemyShooterShiho.cs",
+              "DocumentMoniker": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\EnemyShooterShiho.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EnemyShooterShiho.cs",
+              "ToolTip": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\EnemyShooterShiho.cs",
+              "RelativeToolTip": "Assets\\Script\\EnemyShooterShiho.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-13T16:19:30.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerHealth.cs",
@@ -93,12 +114,11 @@
               "RelativeToolTip": "Assets\\Script\\PlayerHealth.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAQwE8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T16:10:34.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-13T16:10:34.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
@@ -110,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "PlayerOrbit.cs",
               "DocumentMoniker": "C:\\Users\\magun\\GitHub\\circle2\\Assets\\Script\\PlayerOrbit.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerOrbit.cs",
@@ -118,8 +138,7 @@
               "RelativeToolTip": "Assets\\Script\\PlayerOrbit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T04:52:50.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T04:52:50.975Z"
             }
           ]
         }
