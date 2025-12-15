@@ -44,6 +44,7 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: hutidori
+
     uniqueID: 4228824625
     locked: 0
   - name: back ground
@@ -57,6 +58,7 @@ TagManager:
     locked: 0
   - name: bullet
     uniqueID: 2362975905
+
     locked: 0
   m_RenderingLayers:
   - Default
