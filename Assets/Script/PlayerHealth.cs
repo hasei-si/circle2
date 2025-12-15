@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     public HPBar hpBar;
     public GameOverManager gameOverManager;
     public PlayerSE playerSE;
+    public WaveManager waveManager;
 
 
     private SpriteRenderer sr;
@@ -87,17 +88,32 @@ public void TakeDamage(int damage)
     void Die()
     {
         Debug.Log("Player Dead");
-        gameObject.SetActive(false);
-        if (playerSE != null)
+
+        // Wave ‚ðŽ~‚ß‚é
+        if (waveManager != null)
         {
-            playerSE.PlayDeath();
+            waveManager.StopWave();
         }
 
+        gameObject.SetActive(false);
+        playerSE.PlayDeath();
 
         if (gameOverManager != null)
         {
             gameOverManager.ShowGameOver();
         }
-
     }
+
+    public void HealToFull()
+    {
+        currentHP = maxHP;
+
+        if (hpBar != null)
+        {
+            hpBar.SetHP(currentHP);
+        }
+
+        Debug.Log("Player HP fully healed");
+    }
+
 }
